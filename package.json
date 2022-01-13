@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify-lambda build express",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -12,11 +13,13 @@
   "license": "ISC",
   "devDependencies": {
     "morgan": "^1.10.0",
+    "netlify-lambda": "^2.0.15",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
     "express": "^4.17.2",
     "moodle-client": "^0.5.2",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "serverless-http": "^2.7.0"
   }
 }

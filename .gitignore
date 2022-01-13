@@ -1,1 +1,4 @@
 node_modules
+functions
+# Local Netlify folder
+.netlify
